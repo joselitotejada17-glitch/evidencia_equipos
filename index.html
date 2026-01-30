@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Evidencia Fotográfica de Equipos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .item {
+      text-align: center;
+      font-size: 13px;
+    }
+
+    .item img {
+      max-width: 120px;
+      max-height: 180px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .item img:hover {
+      transform: scale(1.05);
+    }
+
+    .nombre {
+      margin-top: 6px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Evidencia Fotográfica de Equipos</h1>
+
+<div class="galeria">
+
+  <!-- CF -->
+  <div class="item">
+    <img src="CF-03.jpeg" onclick="window.open(this.src)">
+    <div class="nombre">CF-03</div>
+  </div>
+
+  <div class="item">
+    <img src="CF-04.jpeg" onclick="window.open(this.src)">
+    <div class="nombre">CF-04</div>
+  </div>
+
+  <!-- EX -->
+  <div class="item"><img src="EX-01.jpeg" onclick="window.open(this.src)"><div class="nombre">EX-01</div></div>
+  <div class="item"><img src="EX-02.jpeg" onclick="window.open(this.src)"><div class="nombre">EX-02</div></div>
+  <div class="item"><img src="EX-03.jpeg" onclick="window.open(this.src)"><div class="nombre">EX-03</div></div>
+  <div class="item"><img src="EX-05.jpeg" onclick="window.open(this.src)"><div class="nombre">EX-05</div></div>
+  <div class="item"><img src="EX-08.jpeg" onclick="window.open(this.src)"><div class="nombre">EX-08</div></div>
+  <div class="item"><img src="EX-09.jpeg" onclick="window.open(this.src)"><div class="nombre">EX-09</div></div>
+  <div class="item"><img src="EX-14.jpeg" onclick="window.open(this.src)"><div class="nombre">EX-14</div></div>
+  <div class="item"><img src="EX-15.jpeg" onclick="window.open(this.src)"><div class="nombre">EX-15</div></div>
+  <div class="item"><img src="EX-16.jpeg" onclick="window.open(this.src)"><div class="nombre">EX-16</div></div>
+
+  <!-- MN / RE -->
+  <div class="item"><img src="MN-01.jpeg" onclick="window.open(this.src)"><div class="nombre">MN-01</div></div>
+  <div class="item"><img src="RE-01.jpeg" onclick="window.open(this.src)"><div class="nombre">RE-01</div></div>
+  <div class="item"><img src="RE-02.jpeg" onclick="window.open(this.src)"><div class="nombre">RE-02</div></div>
+
+  <!-- TR -->
+  <div class="item"><img src="TR-01.jpeg" onclick="window.open(this.src)"><div class="nombre">TR-01</div></div>
+  <div class="item"><img src="TR-02.jpeg" onclick="window.open(this.src)"><div class="nombre">TR-02</div></div>
+  <div class="item"><img src="TR-04.jpeg" onclick="window.open(this.src)"><div class="nombre">TR-04</div></div>
+  <div class="item"><img src="TR-06.jpeg" onclick="window.open(this.src)"><div class="nombre">TR-06</div></div>
+
+</div>
+
+</body>
+</html>
